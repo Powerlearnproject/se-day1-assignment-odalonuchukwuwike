@@ -82,6 +82,22 @@ Question:
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
 
 Ans:
+Unit Testing:
+Unit testing involves examining individual components of the software, such as functions or methods, to ensure each works correctly in isolation.
+
+Importance: Conducted by developers, unit tests detect bugs early, reducing the cost and complexity of fixes. They also provide a foundation for reliable integration and system testing.
+
+Integration Testing
+This testing phase focuses on verifying how different modules or components interact. It ensures that data flows and communication between parts are functional.
+Importance: Typically performed by developers or QA engineers, integration testing identifies issues that arise from connecting units, ensuring smooth interactions between modules.
+
+System Testing
+System testing evaluates the entire software system as a whole, simulating real-world scenarios to check end-to-end functionality.
+Importance: Conducted by QA testers, it verifies that the integrated system meets specifications and works as expected, ensuring overall functionality.
+
+Acceptance Testing
+This final stage involves validating that the system meets user expectations and requirements, often involving stakeholders or end-users.
+Importance: Ensures the software satisfies user needs, incorporating feedback for final adjustments before release.
 
 
 #Part 2: Introduction to AI and Prompt Engineering
@@ -89,5 +105,24 @@ Ans:
 Question:
 Define prompt engineering and discuss its importance in interacting with AI models.
 
+Ans:
+Prompt engineering is the process of designing and optimizing prompts or inputs to elicit specific, accurate, and relevant responses from AI models. It involves understanding how to structure and refine prompts to maximize the AI's performance and utility.
+
+Importance of Prompt Engineering:
+Prompt engineering is the process of designing and optimizing prompts or inputs to elicit specific, accurate, and relevant responses from AI models. It involves understanding how to structure and refine prompts to maximize the AI's performance and utility.
+
+
+
 Question:
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+
+Ans:
+"Explain how to fix a computer"
+
+Improved Prompt:
+"Provide a step-by-step guide for a novice user on how to fix a Windows 10 laptop that won’t connect to Wi-Fi. Include troubleshooting tips and avoid technical jargon."
+
+Why it’s better:
+Targets a specific issue (Wi-Fi connection on Windows 10).
+Specifies the audience (novice users).
+Requests a clear format (step-by-step) and tone (no jargon).
